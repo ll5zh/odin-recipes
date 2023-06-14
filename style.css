@@ -1,0 +1,29 @@
+* {
+    font-family: "Tahoma", sans-serif
+}
+
+.title {
+    background-color: purple;
+    color: paleturquoise;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.heading {
+    background-color: palevioletred;
+    color: rgb(219, 251, 212);
+    text-align: center;
+}
+
+.end {
+    background-color:navy;
+    color: plum;
+    text-align: center;
+    font-size: 18px;
+}
+
+.end.link {
+    background-color: plum;
+    color: navy;
+}
