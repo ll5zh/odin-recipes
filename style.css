@@ -1,3 +1,11 @@
+body {
+    background-color: aliceblue;
+}
+
+p {
+    text-align: center;
+}
+
 * {
     font-family: "Tahoma", sans-serif
 }
@@ -16,14 +24,51 @@
     text-align: center;
 }
 
-.end {
+.end, .home {
     background-color:navy;
     color: plum;
     text-align: center;
     font-size: 18px;
+    padding: 10px;
+    margin: 8px;
+    margin-right: 3px;
+    margin-left: 3px;
+    border-radius: 12px;
+    display: inline-block;
 }
 
 .end.link {
     background-color: plum;
     color: navy;
+    margin: 8px;
+    margin-left: 3px;
+    margin-right: 3px;
+    display: inline-block;
 }
+
+.click {
+    background-color: purple;
+    color: paleturquoise;
+    padding: 10px 20px;
+    margin: 8px;
+    font-weight: 800;
+    border-radius: 12px;
+}
+
+.recipe-list {
+    text-align: center;
+}
+
+.pic {
+    text-align: center;
+}
+
+img {
+    border-radius: 30px;
+}
+
+.closing {
+    text-align: center;
+}
+
+a { color: inherit; }
